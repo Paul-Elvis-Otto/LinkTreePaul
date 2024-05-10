@@ -2,46 +2,46 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; /* Updated font for a modern look */
-    background: #eef1f7; /* Lighter and more soothing background color */
-    color: #333; /* Keeping the text color for better readability */
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    background: #121212; /* Dark background for dark mode */
+    color: #e0e0e0; /* Light grey text color for contrast */
     text-align: center;
     line-height: 1.6; /* Improved line spacing for readability */
 }
 
-/* Centered container with a more modern appearance */
+/* Centered container with modern dark appearance */
 .container {
-    max-width: 600px; /* Slightly larger width for better spacing */
+    max-width: 600px;
     margin: 50px auto;
     padding: 30px;
-    background: white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle and modern shadow */
-    border-radius: 12px; /* Larger border radius for a softer look */
-    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+    background: #1e1e1e; /* Slightly lighter than body for depth */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for a pop effect */
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for subtle animations */
 }
 
 .container:hover {
-    transform: translateY(-5px); /* Subtle hover effect */
+    transform: translateY(-5px); /* Subtle lift effect on hover */
 }
 
-/* Modern circular profile image style */
+/* Profile image with a dark mode aesthetic */
 .profile-image {
-    width: 140px; /* Larger size for prominence */
+    width: 140px;
     height: 140px;
     border-radius: 50%;
     margin: 20px auto;
-    border: 3px solid #007BFF; /* Adding a border color matching the links */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adding subtle shadow for depth */
+    border: 3px solid #3a86ff; /* Bright blue to stand out in dark mode */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); /* Stronger shadow for more depth */
 }
 
-/* Header styles */
+/* Header styles with dark mode colors */
 header h1 {
-    margin: 20px 0; /* More margin for better spacing */
-    font-weight: 600; /* Bolder font weight for heading */
-    color: #007BFF; /* Theme color for aesthetic consistency */
+    margin: 20px 0;
+    font-weight: 600;
+    color: #3a86ff; /* Consistent with the profile image border */
 }
 
-/* Styling for the navigation or link list */
+/* Navigation or link list with dark mode styling */
 .link-list {
     list-style: none;
     padding: 0;
@@ -49,23 +49,23 @@ header h1 {
 
 .link-list li a {
     display: block;
-    background: #007BFF; /* Bright blue for an engaging look */
+    background: #3a86ff; /* Consistent theme color */
     color: white;
     padding: 12px;
     margin: 10px 0;
     text-decoration: none;
-    border-radius: 8px; /* Rounded corners for modern look */
+    border-radius: 8px;
     font-size: 18px;
-    font-weight: 500; /* Medium font weight for readability */
-    transition: background-color 0.3s, transform 0.2s; /* Adding transform to transition for dynamic feedback */
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .link-list li a:hover, .link-list li a:focus {
-    background-color: #0056b3;
-    transform: scale(1.05); /* Slight increase in scale on hover/focus */
+    background-color: #0056b3; /* A darker shade of blue for hover */
+    transform: scale(1.05); /* Enhance feedback with scale effect */
 }
 
-/* Responsive Design */
+/* Responsive design for dark mode */
 @media (max-width: 768px) {
     .container {
         width: 90%;
